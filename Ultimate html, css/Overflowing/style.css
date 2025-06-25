@@ -1,0 +1,9 @@
+body {
+  /* margin: 9px; */
+}
+.box {
+  border: 9px solid rgba(111, 19, 82, 0.932);
+  width: 50%;
+  height: 100vh;
+  background-color: gold;
+}

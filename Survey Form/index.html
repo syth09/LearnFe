@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <h1 id="title">Practice Survey Form</h1>
+      <p id="description">Practicing building a Survey Form</p>
+    </div>
+
+    <form id="form-survey">
+      <div class="form-group">
+        <label for="full-name">Full Name</label>
+        <input id="full-name" type="text" name="full-name" placeholder="Please enter your full name" required />
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input id="email" type="email" name="email-address" placeholder="Please enter your email address" required />
+      </div>
+
+      <div class="form-group">
+        <label for="age">Age (optional)</label>
+        <input id="age" type="number" placeholder="Tell us your age" min="10" max="120" />
+      </div>
+
+      <div class="form-group">
+        <label for="role-dropdown">Which option best describes your current role?</label>
+        <select id="role-dropdown" name="role" required>
+          <option>Select your current role</option>
+          <option>Student</option>
+          <option>Full time job</option>
+          <option>Full time learner</option>
+          <option>Prefer not to say</option>
+          <option>Other</option>
+        </select>
+      </div>
+
+      <div class="form-group radio-group">
+        <label>Would you recommend freeCodeCamp to a friend?</label>
+        <div>
+          <label>
+            <input type="radio" value="Definitely" name="user-recommend" />
+            Definitely</label>
+        </div>
+        <div>
+          <label>
+            <input type="radio" value="Maybe" name="user-recommend" />
+            Maybe</label>
+        </div>
+        <div>
+          <label>
+            <input type="radio" value="Not sure" name="user-recommend" /> Not
+            sure</label>
+        </div>
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>

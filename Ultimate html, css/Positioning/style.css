@@ -1,0 +1,25 @@
+.boxes {
+  border: 3px solid lightgray;
+  position: relative;
+}
+
+.box {
+  width: 5rem;
+  height: 5rem;
+}
+
+.box-one {
+  background: goldenrod;
+}
+
+.box-two {
+  background: tomato;
+  position: absolute;
+  left: 50rem;
+  bottom: 0;
+  z-index: 999999;
+}
+
+.box-three {
+  background: dodgerblue;
+}
